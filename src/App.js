@@ -19,15 +19,15 @@ function App() {
     <Routes> 
        
        <Route exact path="/" element={<Home/>} />
-       <Route exact path="/products" element={<Products/>} />
-       <Route exact path="/faq" element={<Faqs/>} />
-       <Route exact path="/smartyarn" element={<Smartyarn/>} />
-       <Route exact path="/contact" element={<Contact/>} />
-       <Route exact path="/about" element={<About/>} />
-       <Route exact path="/privacy" element={<Privacy/>} />
-       <Route exact path="/toc" element={<TOC/>} />
-       <Route exact path="/career" element={<Career/>} />
-       <Route exact path="/careerdisplay" element={<DisplayCareer/>} />
+       <Route  path="/products" element={<Products/>} />
+       <Route  path="/faq" element={<Faqs/>} />
+       <Route  path="/smartyarn" element={<Smartyarn/>} />
+       <Route  path="/contact" element={<Contact/>} />
+       <Route  path="/about" element={<About/>} />
+       <Route  path="/privacy" element={<Privacy/>} />
+       <Route  path="/toc" element={<TOC/>} />
+       <Route  path="/career" element={<Career/>} />
+       <Route  path="/careerdisplay" element={<DisplayCareer/>} />
 
         </Routes>
 
