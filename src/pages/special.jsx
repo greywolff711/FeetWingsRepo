@@ -1,5 +1,5 @@
 import React from "react";
-import Special_Options from "../components/LandingPage/special_options";
+import SpecialOptions from "../components/LandingPage/SpecialOptions";
 import earlypic from '../build/assets/icons/EarlyDetection.webp';
 import remotemoni from '../build/assets/icons/RemoteMonitoring.webp';
 import Easeofaccess from '../build/assets/icons/Easeofaccess.webp';
@@ -26,7 +26,7 @@ function special(){
                                 <div class="col-lg-4 col-sm-6 img-div">
                                     <LazyLoadImage effect="blur" src={earlypic} alt="early"/>
                                 </div>
-                                <Special_Options 
+                                <SpecialOptions 
                                     heading="Early Detection & prevention of Diabetic Complications" 
                                     para="Find out early signs of risk for severe diabetic complications such as Diabetic Foot Ulcers, Hypertension & Chronic Kidney Disease."
                                 />
@@ -38,7 +38,7 @@ function special(){
                                 <div class="col-lg-4 col-sm-6 img-div">
                                     <LazyLoadImage effect="blur" src={remotemoni} alt="remote"/>
                                 </div>
-                                <Special_Options heading="Remote & Continuous Monitoring" 
+                                <SpecialOptions heading="Remote & Continuous Monitoring" 
                                         para="Real-time and long-term data that helps reduce false positives and helps you make better lifestyle choices from the convenience of your homes."
                                 />
                             </div>
@@ -56,7 +56,7 @@ function special(){
                     <div class="col-lg-4 mt-5">
                         <div class="easy-step-card right-txt  " >
                             <div class="row flex-sm-row-reverse flex-lg-row align-items-center second-block">
-                                <Special_Options heading="Ease of Access"
+                                <SpecialOptions heading="Ease of Access"
                                     para="Our smart yarn is completely machine-washable and dryable, functionally smart, but just as easy to use!"
                                 />
                                 <div class="col-lg-4 col-sm-6 img-div">
@@ -66,7 +66,7 @@ function special(){
                         </div>
                         <div class="easy-step-card left-text">
                             <div class="row align-items-center second-block">
-                                <Special_Options heading="Affordability"
+                                <SpecialOptions heading="Affordability"
                                 para="For the first time ever, continuous, specific and feature-rich diabetic monitoring that is extremely affordable and value-driven with plans starting as low as ₹299/month!"
                                 />
                                 <div class="col-lg-4 col-sm-6 img-div">

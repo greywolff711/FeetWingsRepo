@@ -2,7 +2,6 @@ import React from "react";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import fibre from '../build/assets/landing_img/fibre.webp'
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 function WMUS() {

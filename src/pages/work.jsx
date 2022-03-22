@@ -1,5 +1,5 @@
 import React from "react";
-import Work_options from "../components/LandingPage/work_options";
+import WorkOptions from "../components/LandingPage/WorkOptions";
 import AOS from 'aos';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'aos/dist/aos.css';
@@ -16,25 +16,25 @@ function work() {
                 <br></br><br></br>
                 <div class="row card-container" data-aos="fade-right">
                     <div class="col-lg-3 col-sm-6">
-                        <Work_options h="Wear the sock"
+                        <WorkOptions h="Wear the sock"
                             p="Use the socks for a while, let the sensors gather information about your body."
                         />
                     </div>
 
                     <div class="col-lg-3 col-sm-6" data-aos="fade-up">
-                        <Work_options h="Get the app"
+                        <WorkOptions h="Get the app"
                             p="The reader connects to your phone directly via bluetooth and sends the data to be stored on the app."
                         />
                     </div>
 
                     <div class="col-lg-3 col-sm-6" data-aos="fade-up">
-                        <Work_options h="Alerts & Prevention"
+                        <WorkOptions h="Alerts & Prevention"
                             p="If we detect any anomaly the app immediately alerts you and advises a course of action."
                         />
                     </div>
 
                     <div class="col-lg-3 col-sm-6" data-aos="fade-up">
-                        <Work_options h="Get in touch with doctor"
+                        <WorkOptions h="Get in touch with doctor"
                             p="All that data makes communication with your doctor much easier and allows them to treat you better."
                         />
                     </div>

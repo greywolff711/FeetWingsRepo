@@ -2,7 +2,7 @@ import React from 'react'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 import sock from '../../build/assets/landing_img/sock.webp';
-import App_shapes from '../App_shapes';
+import AppShapes from '../AppShapes';
 
 function LandingPage() {
   return (
@@ -13,7 +13,7 @@ function LandingPage() {
                         <div class="app-bennr-text">
                             <h1>Smart Textile Based Healthcare Assistant</h1>
                             <p>FeetWings is a smart wearable company that aims to provide a solution to diabetes and related complications at an affordable rate.</p>
-                            <App_shapes/>
+                            <AppShapes/>
                         </div>
                     </div>
                     <div class="col-lg-6">
