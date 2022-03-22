@@ -15,12 +15,12 @@ function WMUS() {
                 <h6 class="banner-owner">powered by</h6>
                 <h2 class="banner-title">Smart Yarn</h2>
                 </div>
-                    <div class="app-banner-img" data-aos="fade-right">
+                    <div class="app-banner-img" data-aos="fade-right" data-aos-duration="1500">
                         <LazyLoadImage src={fibre} alt="fibre"/>
                     <div class="app-shapes"></div>
                     </div>
                 </div>
-                <div class="content-box" data-aos="fade-left">
+                <div class="content-box" data-aos="fade-left" data-aos-duration="1500">
                     <div class=" ">
                         <div className="banner-title-container2">
                         <h1 class="banner-title">Smart Socks </h1>
@@ -39,7 +39,7 @@ function WMUS() {
                     </div>
                 </div>
             </div>
-            <div class="btn_container" data-aos="fade-left">
+            <div class="btn_container" data-aos="fade-left" data-aos-duration="1500">
                 <button class="btn">More</button>
             </div>
         </div>
