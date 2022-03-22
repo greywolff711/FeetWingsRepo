@@ -12,28 +12,28 @@ function work() {
                 <div class="section-title">
                     <h1 class="work-heading-text" aria-hidden="true"></h1>
                 </div>
-                <LazyLoadImage effect="blur" src="../assets/landing_img/how-we-work.png" class="step-1" alt="Work" data-aos="fade-down"/>
+                <LazyLoadImage effect="blur" src="../assets/landing_img/how-we-work.png" class="step-1" alt="Work" data-aos="fade-down" data-aos-duration="1500"/>
                 <br></br><br></br>
-                <div class="row card-container" data-aos="fade-right">
+                <div class="row card-container" data-aos="fade-up" data-aos-duration="1500">
                     <div class="col-lg-3 col-sm-6">
                         <WorkOptions h="Wear the sock"
                             p="Use the socks for a while, let the sensors gather information about your body."
                         />
                     </div>
 
-                    <div class="col-lg-3 col-sm-6" data-aos="fade-up">
+                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
                         <WorkOptions h="Get the app"
                             p="The reader connects to your phone directly via bluetooth and sends the data to be stored on the app."
                         />
                     </div>
 
-                    <div class="col-lg-3 col-sm-6" data-aos="fade-up">
+                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
                         <WorkOptions h="Alerts & Prevention"
                             p="If we detect any anomaly the app immediately alerts you and advises a course of action."
                         />
                     </div>
 
-                    <div class="col-lg-3 col-sm-6" data-aos="fade-up">
+                    <div class="col-lg-3 col-sm-6" data-aos="fade-up" data-aos-duration="1500">
                         <WorkOptions h="Get in touch with doctor"
                             p="All that data makes communication with your doctor much easier and allows them to treat you better."
                         />

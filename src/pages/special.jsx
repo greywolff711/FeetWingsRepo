@@ -19,7 +19,7 @@ function special(){
                     <h1>What Makes Us Special ?</h1>
                 </div>
 
-                <div class="row align-items-spacearound first-step-area" data-aos="fade-up">
+                <div class="row align-items-spacearound first-step-area" data-aos="fade-up" data-aos-duration="1500">
                     <div class="col-lg-4 mt-5">
                         <div class="easy-step-card right-text">
                             <div class="row align-items-center first-block">
